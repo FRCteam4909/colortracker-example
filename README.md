@@ -19,6 +19,7 @@ sudo apt-get install -y nodejs
 
 * Install dependencies
 ```bash
+cd colortracker-example
 npm install
 ```
 
@@ -27,3 +28,10 @@ npm install
 ```bash
 nodejs colortracker.js
 ```
+
+The program looks for yellow objects, and prints the attributes of the
+bounding rectangles it calculates for those objects.
+
+For comparison and to help visualize what these bounding rectangles represent,
+it would be useful to run the browser-based code as described at
+[tracking.js](http://trackingjs.com).
